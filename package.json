@@ -1,0 +1,24 @@
+{
+    "name": "BondingCurve",
+    "license": "MIT",
+    "version": "2.1.1",
+    "devDependencies": {
+        "husky": "^8.0.3",
+        "lint-staged": "^14.0.0",
+        "solhint": "^5.0.3"
+    },
+    "scripts": {
+        "setup": "make clean && make build",
+        "sync": "make install",
+        "build": "make build",
+        "test": "make foundry-test",
+        "abi": "make abi",
+        "snapshot": "make snapshot",
+        "lint": "make lint",
+        "solhint": "make solhint",
+        "mythril": "make mythril",
+        "storage-layout": "make storage-layout",
+        "upgradeable": "make upgradeable",
+        "prepare": "husky install"
+    }
+}
